@@ -21,20 +21,31 @@
     <link rel="stylesheet" href="./dist/style.css" />
 
     <title>Frontend Mentor | Easybank landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Home About Contact Blog Careers Request Invite Next generation digital
+    <header class="header">
+      <nav class="flex flex-jc-sb flex-ai-c">
+        <a href="/" class="logo header__logo">
+          <img src="./images/logo.svg" alt="Easybank logo"
+        /></a>
+
+        <a href="/" class="hamburguer header__menu">
+          <span></span><span></span><span></span>
+        </a>
+
+        <div class="header__links">
+          <a href="#" class="link">Home</a>
+          <a href="#" class="link">About</a>
+          <a href="#" class="link">Contact</a>
+          <a href="#" class="link">Blog</a>
+          <a href="#" class="link">Careers</a>
+        </div>
+
+        <a href="#" class="button header__cta">Request Invite</a>
+      </nav>
+    </header>
+
+    <!--       Next generation digital
     banking Take your financial life online. Your Easybank account will be a
     one-stop-shop for spending, saving, budgeting, investing, and much more.
     Request Invite Why choose Easybank? We leverage Open Banking to turn your
@@ -57,14 +68,7 @@
     Robinson Our invite-only Beta accounts are now live! After a lot of hard
     work by the whole team, we’re excited to launch our closed beta. It’s easy
     to request an invite through the site ... About Us Contact Blog Careers
-    Support Privacy Policy Request Invite © Easybank. All Rights Reserved
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    Support Privacy Policy Request Invite © Easybank. All Rights Reserved -->
   </body>
 
   <script src="./app/js/script.js"></script>
