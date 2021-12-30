@@ -23,6 +23,13 @@
   &__item {
     border-radius: 0.3125rem;
     overflow: hidden;
+    background-color: $white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    transition: all 150ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__image {
@@ -33,7 +40,6 @@
   }
 
   &__text {
-    background-color: $white;
     padding: 1.875rem 1.875rem 2.5rem 1.875rem;
     color: $grayishBlue;
 
