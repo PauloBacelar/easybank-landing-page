@@ -33,10 +33,11 @@ Creating a landing page for a fictional bank. Challenge from <a href="https://ww
 
 ### 🚀 Deploy 
 
-This project is hosted on [GitHub Pages](https://paulobacelar.github.io/easybank-landing-page/).
+This project is hosted on [Netlify](https://easybank-paulobacelar.netlify.app/).
 
 ### ✅ Demo
-// TBD
+<img src="https://github.com/PauloBacelar/easybank-landing-page/blob/main/images/desktop-demo.png" width="600" />
+<img src="https://github.com/PauloBacelar/easybank-landing-page/blob/main/images/mobile-demo.png" width="200" />
 
 ### ⚙ Prerequisites
 
